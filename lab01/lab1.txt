@@ -1,0 +1,4 @@
+My name is Benny Serrato
+My Major is Computer Science
+I'm in this class to learn and understand programming languages 
+Last semester is was my first programming class which was Introduction to Programming that went through the language JavaScript
