@@ -21,11 +21,15 @@ int main(){
     migrationUs = yearsSeconds / 29; //Amount of migrations per year
     netGain = yearsSeconds / 15; //Amount of net gain per year
     populationGain = (birthUs - deathsUs) + (migrationUs + netGain); //The gain of population per year
-    populationYears = currentPopulation + (yearInputed * populationGain); //The population of User inputed years after 2016
-   
+    
     cout << "The current United States population is 324472967" << endl;
     cout << "Input years after 2016 to calucate the United States population after in the years inputed after 2016: " << endl;
     cin >> yearInputed;
+    
+    populationYears = currentPopulation + (yearInputed * populationGain); //The population of User inputed years after 2016
+   
     cout << "The poputaion of the United States after " << yearInputed << " years is:" << endl;
     cout << populationYears;
+   
+    return 0;
 }
