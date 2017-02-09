@@ -1,6 +1,7 @@
 //Created By:Benny Serrato
 //Created On: 2/5/17
 //This program will convert the inputed coins into cash and charge a percentage of the amount inserted as a fee
+
 #include <iostream>
 using namespace std;
 
@@ -12,7 +13,7 @@ int main(){
     int inNickels = 0; //Calculate how much nickels the User inputed
     int inPennies = 0; //Calculate how much pennies the User inputed
     double cashBack = 0.0; //Calculating final amount given to User
-    double moneyConversion = 0.0; //converting the cents into a decimal 
+    double moneyConversion = 0; //converting the cents into a decimal 
     
     cout << "Hello Welcome to Coin Star please insert the coins you wish to convert into cash" << endl;//Beginning of program
     cin >> userInsert;// Amount user inserted
@@ -33,13 +34,12 @@ int main(){
     
     cout << "Pennies: You have inserted " << inPennies << endl;//Output of how many pennies the user inputed
     
-    moneyConversion = static_cast<double>(userInsert) / 100.00;// Money conversion from numbers to cents 
-    cashBack = static_cast<double>(moneyConversion) - static_cast<double>(moneyConversion * percentageFee);//The amount given back to the user after the percentage fee
+    moneyConversion = static_cast<double>(userInsert) / 100;// Money conversion from numbers to cents 
+    cashBack = (static_cast<double>(userInsert) - static_cast<double>(userInsert * percentageFee)) / 100;//The amount given back to the user after the percentage fee
     
     cout << "Your total is $" << moneyConversion << endl;//The intial total of the money from the user
     cout << "After the fee, you will get $" << cashBack << " back in cash" << endl;//Total after the percentage fee taken out of the intial total
     cout << "Thank you for using Coin Star. Have a Good Day!";//End of the program 
-    
     return 0;
 }
 
