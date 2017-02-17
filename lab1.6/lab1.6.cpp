@@ -15,7 +15,7 @@ struct monsterCreation{
     string monsterMouth; // Mouth of the monster
 };
 
-int main();{
+int main(){
 
 monsterCreation monsterOne;// Parts for the first monster
 monsterCreation monsterTwo;// parts for the second monster
@@ -66,7 +66,7 @@ cout << endl;
 /*Outcome of the first monster */
 cout << "First Monster:" << endl;
 cout << monsterOne.monsterName << endl;
-cout <<"Head: " << monsterOne.monsterName << endl;
+cout <<"Head: " << monsterOne.monsterHead << endl;
 cout << "Eyes: " << monsterOne.monsterEyes << endl;
 cout << "Ears: " << monsterOne.monsterEars << endl;
 cout << "Nose: " << monsterOne.monsterNose << endl;
@@ -76,7 +76,7 @@ cout << endl;
 /*Outcome of the second monster*/
 cout << "Second Monster:" << endl;
 cout << monsterTwo.monsterName << endl;
-cout <<"Head: " << monsterTwo.monsterName << endl;
+cout <<"Head: " << monsterTwo.monsterHead << endl;
 cout << "Eyes: " << monsterTwo.monsterEyes << endl;
 cout << "Ears: " << monsterTwo.monsterEars << endl;
 cout << "Nose: " << monsterTwo.monsterNose << endl;
