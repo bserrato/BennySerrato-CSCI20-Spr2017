@@ -27,9 +27,8 @@ void NumberSwap (int smallestNumber, int largestNumber){
     int swapNumberLarge;
     
     swapNumberSmall = smallestNumber;//Storing the variable value of smallest number for swapping purposes
-    swapNumberLarge = largestNumber;//Storing the variable value of the largest for swapping purposes
     
-    smallestNumber = swapNumberLarge;//Swapping variable values using the swapNumberSmall variable
+    smallestNumber = largestNumber;//Swapping variable values using the swapNumberSmall variable
     largestNumber = swapNumberSmall;//Swapping variable values using the swapNumberLarge variable
     return;
 }
@@ -40,7 +39,7 @@ void NumberGenerator (int& smallestNumber, int& largestNumber){
     
     NumberSwap(smallestNumber, largestNumber);//Call of the number swap function
     srand(time(0));//Using computer time to get a random number every time the program in run
-    finalResult = (rand() % largestNumber) + smallestNumber; // Using finalResult variable to get the result of the random number generator
+    finalResult = (rand() % (largestNumber - smallestNumber)) + smallestNumber; // Using finalResult variable to get the result of the random number generator
     cout << "A random number between " << smallestNumber << " and " << largestNumber << " is " << finalResult;//Outcome of the program for the random number generator
     return;
     

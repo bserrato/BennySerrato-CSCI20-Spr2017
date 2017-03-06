@@ -1,6 +1,6 @@
 //Created by: Benny Serrato
 //Created On: 3/2/2017
-//
+//This program will get a random number make it into pounds and convert it to kilograms and then back to pounds 
 
 #include<ctime>
 #include<cstdlib>
