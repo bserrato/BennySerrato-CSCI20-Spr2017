@@ -6,8 +6,8 @@ using namespace std;
 
 class TemperatureConverter{//This class will convert temperatures Kelvin, Celsius, Fahrenheit
   public:
-  TemperatureConverter();
-  TemperatureConverter(double resKelvin);
+  TemperatureConverter();//declaration of the default constructor
+  TemperatureConverter(double resKelvin);//declaration overloaded constructor
   void SetTempFromKelvin (double userKelvin);
   double GetTempFromKelvin();
   void SetTempFromCelsius(double userCelsius);
@@ -18,10 +18,10 @@ class TemperatureConverter{//This class will convert temperatures Kelvin, Celsiu
   private:
   double kelvin_;
 };
-TemperatureConverter::TemperatureConverter(){
+TemperatureConverter::TemperatureConverter(){//definition of the default constructor
     kelvin_ = 0;
 }
-TemperatureConverter::TemperatureConverter(double resKelvin){
+TemperatureConverter::TemperatureConverter(double resKelvin){//definition of the overloaded constructor
     kelvin_ = resKelvin;
 }
 void TemperatureConverter::SetTempFromKelvin(double userKelvin){
