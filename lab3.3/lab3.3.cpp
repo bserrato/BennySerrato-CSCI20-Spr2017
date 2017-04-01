@@ -22,8 +22,6 @@ int main(){
                     cin >> userNumber;
                     }
                 }
-    
-        cout << randomNumber;//testing corrections
         while(randomNumber != userNumber){//To keep the game running until user guesses the number correctly
         for(int userChances = 9; userChances >= 0; userChances--){//for loop to figure out how many tries the user has left
             if(userNumber > randomNumber){
@@ -53,12 +51,11 @@ int main(){
                     cout << "You have no chances left. Random number was " << randomNumber << endl;
                     cout << "Reseting guessing game." << endl;
                     randomNumber = (rand() % 50) + 1;
-                    cout << randomNumber;
                     cin >> userNumber;
                 }
         }else{//when user guesses the number correctly inside the for loop
             while(randomNumber != userNumber){
-            cout << "Correct! Congratulations " << endl;//Once user correctly guesses the random number
+            cout << "Correct! Congratulations! " << endl;//Once user correctly guesses the random number
                 
             }
         }
