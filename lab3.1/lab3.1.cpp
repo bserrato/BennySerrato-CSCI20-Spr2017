@@ -34,15 +34,19 @@ int main(){
     cin >> memberPlan;//Customer input for if the customer is a coperate member
     
     if(memberPlan == "yes" || memberPlan == "Yes" || memberPlan == "Y" || memberPlan == "YES" || memberPlan == "y"){//if the customer is a coportate member for the discount
+        cout << "Corporate Member ";
         if (dataPlan > 32){//cheaper to have unlimited data after 32 Gigabytes
+            cout << "Unlimited Data ";
             planPrice = 75 + ((dataPlan - 10) * 1.50 );
         
             if(tabletPhone >= 0 && smartPhone >= 0 && dumbPhone >= 0){//amount of phones the customer wants on the plan
             planPrice = planPrice + (tabletPhone * 10) + (smartPhone * 5) + (dumbPhone * 0);
                 if (familyPlan > 2){//if customer has more than 2 people in plan
+                cout << "Family Plan Discount "
                     planPrice = planPrice + ((familyPlan - 2) * 3);
                 }
                 else{//if customers has 2 or less people in plan
+                cout << "Family Plan Discount" << endl;
                     planPrice = planPrice;
                 }
             }
