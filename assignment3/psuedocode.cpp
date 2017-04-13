@@ -4,7 +4,7 @@
 
     //create a void function to randomly select an option for the computer(mutator).
       //have a parameter that will get a random number for a switch statement.
-      //Switch statement will have cases from 1-4 in each would have an option Ex: case1 : option_ = "rock";
+      //Switch statement will have cases from 1-4 in each would have an option. Ex: case1 : option_ = "rock";
     //create an accessor to return the option for the computer.
     
 //Have main program to have all the input and output.
