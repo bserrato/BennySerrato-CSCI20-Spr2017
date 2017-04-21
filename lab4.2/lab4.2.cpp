@@ -11,8 +11,9 @@ int main(){
     string inventoryName[SHOP_SIZE] = {"Teddy Bear","Baseball Bat", "Gaming Chair", "Computer Monitor", "Keyboard", "Computer Mouse", "Notebook", "Headphones", "Hat", "Knit Gloves"};//contains the names of the items
     int inventorySize[SHOP_SIZE] = {5, 4, 8, 7, 5, 9, 3, 6, 7, 2};//contains the amount of items in stock
     double shopPrice[SHOP_SIZE] = {9.99, 24.99, 109.99, 89.99, 20.99, 79.99, 16.02, 49.99, 24.00, 6.00};//contains the prices of items 
-    string customerCart[SHOP_SIZE];//contain the customer's items being purchased
+    string customerCart[99];//contain the customer's items being purchased
     double totalPrice = 0;//calculating the total amount after selecting items
+    string userAnswer;
     
     cout << "List of items for purchase" << endl;
     cout << endl;
@@ -24,7 +25,10 @@ int main(){
     cout << endl;
     cout << "Please type what items you want to putting in your shopping cart." << endl;
     
-        for(int i = 0; i < SHOP_SIZE; i++ ){//determine what the customer wishes to purchase
+        for(int i = 0; i < 99; i++ ){//determine what the customer wishes to purchase
+                if(userAnswer == "No" || userAnswer == "no"){
+                    
+                }else{
                 getline(cin, customerCart[i]);
                 /*Determines what the customer wants and to check if that item is still in stock */
                 if(customerCart[i] == inventoryName[0] && inventorySize[0] > 0){
@@ -86,6 +90,7 @@ int main(){
                         cout << "I'm sorry could you repeat that again I didn't understand." << endl;
                     }
                     i--;
+                }
                 }
         }
         cout << "You've purchased: " << endl;
