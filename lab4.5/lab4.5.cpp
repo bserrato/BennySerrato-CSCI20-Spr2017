@@ -47,7 +47,7 @@ int main(){
             cin >> lastName;//prompts user to input their last name again
         }
     }
-     for(int i = 0; i < firstName.length() - 1; i++){//Converts any upper case in the first name to lowercase for usernames
+     for(int i = 0; i < firstName.length(); i++){//Converts any upper case in the first name to lowercase for usernames
           firstName.at(i) = tolower(firstName.at(i));
     }
     for(int i = 0; i < lastName.length(); i++){//Converts any uppercase in the last name to lowercase for usernames
