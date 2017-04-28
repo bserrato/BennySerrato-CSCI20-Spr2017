@@ -35,57 +35,68 @@ int main(){
                     totalPrice = totalPrice + shopPrice[0];//Calculates the amount the customer will owe
                     inventorySize[0]= inventorySize[0] - 1;//removes one from inventory when purchased
                     cout << inventoryName[0] << " Amount Left: " << inventorySize[0] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else if(customerCart[i] == inventoryName[1] && inventorySize[1] > 0){
                     totalPrice = totalPrice + shopPrice[1];//Calculates the amount the customer will owe
                     inventorySize[1] = inventorySize[1] - 1;//removes one from inventory when purchased
                     cout << inventoryName[1] << " Amount Left: " << inventorySize[1] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else if(customerCart[i] == inventoryName[2] && inventorySize[2] > 0){
                     totalPrice = totalPrice + shopPrice[2];//Calculates the amount the customer will owe
                     inventorySize[2] = inventorySize[2] - 1;//removes one from inventory when purchased
                     cout << inventoryName[2] << " Amount Left: " << inventorySize[2] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else if(customerCart[i] == inventoryName[3] && inventorySize[3] > 0){
                     totalPrice = totalPrice + shopPrice[3];//Calculates the amount the customer will owe
                     inventorySize[3] = inventorySize[3] - 1;//removes one from inventory when purchased
                     cout << inventoryName[3] << " Amount Left: " << inventorySize[3] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else if(customerCart[i] == inventoryName[4] && inventorySize[4] > 0){
                     totalPrice = totalPrice + shopPrice[4];//Calculates the amount the customer will owe
                     inventorySize[4] = inventorySize[4] - 1;//removes one from inventory when purchased
                     cout << inventoryName[4] << " Amount Left: " << inventorySize[4] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else if(customerCart[i] == inventoryName[5] && inventorySize[5] > 0){
                     totalPrice = totalPrice + shopPrice[5];//Calculates the amount the customer will owe
                     inventorySize[5] = inventorySize[5] - 1;//removes one from inventory when purchased
                     cout << inventoryName[5] << " Amount Left: " << inventorySize[5] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else if(customerCart[i] == inventoryName[6] && inventorySize[6] > 0){
                     totalPrice = totalPrice + shopPrice[6];//Calculates the amount the customer will owe
                     inventorySize[6] = inventorySize[6] - 1;//removes one from inventory when purchased
                     cout << inventoryName[6] << " Amount Left: " << inventorySize[6] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else if(customerCart[i] == inventoryName[7] && inventorySize[7] > 0){
                     totalPrice = totalPrice + shopPrice[7];//Calculates the amount the customer will owe
                     inventorySize[7] = inventorySize[7] - 1;//removes one from inventory when purchased
                     cout << inventoryName[7] << " Amount Left: " << inventorySize[7] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else if(customerCart[i] == inventoryName[8] && inventorySize[8] > 0){
                     totalPrice = totalPrice + shopPrice[8];//Calculates the amount the customer will owe
                     inventorySize[8] = inventorySize[8] - 1;//removes one from inventory when purchased
                     cout << inventoryName[8] << " Amount Left: " << inventorySize[8] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else if(customerCart[i] == inventoryName[9] && inventorySize[9] > 0){
                     totalPrice = totalPrice + shopPrice[9];//Calculates the amount the customer will owe
                     inventorySize[9] = inventorySize[9] - 1;//removes one from inventory when purchased
                     cout << inventoryName[9] << " Amount Left: " << inventorySize[9] << endl;
-            
+                    cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                 }else{//When an item runs out of stock or when customer inputs the item incorrectly
                     if(inventorySize[0] <= 0 || inventorySize[1] <= 0 || inventorySize[2] <= 0 || inventorySize[3] <= 0 || inventorySize[4] <= 0 || inventorySize[5] <= 0 || inventorySize[6] <= 0 || inventorySize[7] <= 0 || inventorySize[8] <= 0 || inventorySize[9] <= 0){
-                
                         cout << "Sorry! " << customerCart[i] << " is out of stock!" << endl;
                         cout << "We do have other items available for purchase! " << endl;
+                        cout << "Do you wish to continue purchasing?" << endl; 
+                    getline(cin, userAnswer);//Customer's reponse if they wish to continue purchasing items
                     }else{
                         cout << "I'm sorry could you repeat that again I didn't understand." << endl;
                     }

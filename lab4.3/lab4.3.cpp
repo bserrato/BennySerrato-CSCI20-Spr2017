@@ -79,6 +79,7 @@ int main(){
     cout << "Please type what items you want to purchase." << endl;
         for(int i = 0; i < 99; i++ ){//will check if the item the customer call is for sale or not
                 if(userAnswer == "no" || userAnswer == "No"){//whenever the customer decides to quit selecting items
+                
                 }else{
                     getline(cin, customerPurchase[i]);
                     purchaseCounter++;
@@ -165,7 +166,6 @@ int main(){
         }
         cout << endl;
         cout << "Your total is: $" << totalPrice;//Total amount the customer owes
-    
     
     return 0;
 }
