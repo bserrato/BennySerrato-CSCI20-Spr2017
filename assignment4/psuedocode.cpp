@@ -6,12 +6,13 @@
 
 //private variable to contain the points obtained by the user
 //private variable to contain the test size (array size)
-//private variable to contain the wrong answers given
-//private variable to contain all user's answers 
+//private array to contain the wrong answers given
+//private array to contain all user's answers
+//private variable to keep the percantage gotten on the test
 
 //Public:
 
-//overloaded constructor to set the size of the test (array size)
+//Sets test size for grading
 
 //Sets user's answer in a private array (create a parameter array to obtain all answers user gave)
 
@@ -48,6 +49,10 @@
 
 //create an array that contains all the answers to the test
 //create an array to store all the answers the user gives
+//create string variable to store first name
+//create string variable to store last name
+//declare an array of objects to store all the user tests
+
 //declare the ifstream (fin)
 //declare the ofstream (fout)
 //open an output file to show the results of the test
@@ -56,6 +61,13 @@
   //store answer key inside an array(using a for loop)
   
 //close the answer key file
+
+//declare a variable to store in next array object every time it loops(i)
+
+//create a while loop to repeat itself until it reaches end of file
+
+//store user's first name
+//store user's last name 
 
 //open the test file as a user file to get all the user answers
   //store user's answers inside an array (using a for loop)
@@ -70,6 +82,10 @@
 //outputs the percentage the user recieved on the test
 //outputs the gradeletter user recieved on the test
 /* end of file output */
+
+//add 1 to the variable that has the next array object for next user
+
+//end of while loop
 
 //close user's answers input file
 //close the output file for results
