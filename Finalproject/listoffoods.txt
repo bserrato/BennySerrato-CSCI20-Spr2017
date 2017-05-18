@@ -21,7 +21,7 @@ barley sugar
 celery
 couscous
 butter
-Marsala
+marsala
 cayenne pepper
 lemon Peel
 salmon
@@ -49,7 +49,7 @@ veal
 spinach
 trout
 chickpeas
-black-eyed peas
+black eyed peas
 tarragon
 eggplants
 red snapper
@@ -75,7 +75,7 @@ maple syrup
 aioli
 beer
 condensed milk
-brussels sprouts
+brussel sprouts
 pancetta
 herring
 cornstarch
@@ -95,7 +95,7 @@ cheddar cheese
 granola
 turtle
 corn flour
-Kahlua
+kahlua
 snapper
 monkfish
 baguette
@@ -109,7 +109,7 @@ baking soda
 tomatoes
 vinegar
 prawns
-five-spice powder
+five spice powder
 huckleberries
 gouda
 borscht
@@ -131,9 +131,9 @@ chicory
 radishes
 flour
 gelatin
-Romano cheese
+romano cheese
 fish sauce
-Goji berry
+goji berry
 rose water
 gorgonzola
 poppy seeds
@@ -152,13 +152,13 @@ lentils
 cinnamon
 custard
 red pepper flakes
-Havarti cheese
+havarti cheese
 tartar sauce
 carrots
 fennel
 soybeans
 peas
-English muffins
+english muffins
 caviar
 chaurice sausage
 coffee
@@ -170,7 +170,7 @@ kumquats
 turkeys
 water chestnuts
 ice cream
-half-and-half
+half and half
 mint
 passion fruit
 swordfish
@@ -197,15 +197,15 @@ prosciutto
 tuna
 apple butter
 vermouth
-Mandarin oranges
-Parmesan cheese
+mandarin oranges
+parmesan cheese
 lettuce
 sour cream
 tomato sauce
 squid
 chicken
 buttermilk
-pig's feet
+pigs feet
 beef
 navy beans
 chile peppers
@@ -271,7 +271,7 @@ curry powder
 almond butter
 grits
 spearmint
-Irish cream liqueur
+irish cream liqueur
 duck
 hamburger
 chestnuts
@@ -287,7 +287,7 @@ tonic water
 bourbon
 rice wine
 balsamic vinegar
-Cappuccino Latte
+cappuccino latte
 cookies
 beets
 breadcrumbs
@@ -308,7 +308,7 @@ pico de gallo
 cream of tartar
 cauliflower
 berries
-Tabasco sauce
+tabasco sauce
 ham
 cherries
 dried leeks
@@ -362,7 +362,7 @@ kiwi
 remoulade
 beans
 date sugar
-Worcestershire sauce
+worcestershire sauce
 oatmeal
 pomegranates
 dill

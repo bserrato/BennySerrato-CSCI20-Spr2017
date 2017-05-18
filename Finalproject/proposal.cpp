@@ -1,0 +1,5 @@
+/* This program will be a hang man game that will have the player guess a random food name by inputing letters that would possibly be the food name.
+The player will have certain amount of tries depending how long the word is and be given three rounds to guess food names.
+
+This program will get file input of a text file of a list of food names. The class will determine if the character guessed is correct to the word. create a for loop to create rounds inside
+of the program. */
