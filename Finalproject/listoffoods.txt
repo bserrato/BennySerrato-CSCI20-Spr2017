@@ -23,7 +23,7 @@ couscous
 butter
 marsala
 cayenne pepper
-lemon Peel
+lemon peel
 salmon
 soy sauce
 walnuts
@@ -137,7 +137,7 @@ goji berry
 rose water
 gorgonzola
 poppy seeds
-Canadian bacon
+canadian bacon
 creme fraiche
 bruschetta
 rice vinegar
