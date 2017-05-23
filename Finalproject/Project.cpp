@@ -11,7 +11,7 @@ the outcome of the rounds, have array of object for each individual player's rou
 #include <cctype>
 using namespace std;
 
-class WordGuess {
+class WordGuess {//This class will process the guesses the player input and will output depending if they guesses right or wrong and see if they won or lost the round
     private:
         string correctAnswer_;//will store the word that player will be guessing
         string storeGuess_;//stores the letter or word guess the player inputed
@@ -41,7 +41,7 @@ class WordGuess {
                 indexOfSpace_ = correctAnswer_.find(' ');
             }
             else {
-                indexOfSpace_ = -1;
+                indexOfSpace_ = -1;//will set index to -1 of there are no spacings in the word
             }
             for (int x = 0; x < correctAnswer_.length(); x++) {       //This for loop converts a word to _ based on how long the word is
                 userWord_.push_back('#');
